@@ -1,0 +1,30 @@
+{% extends 'customer/index.html' %}
+
+{% block content %}
+<br>
+<div class="row">
+	<div class="col-md-3">
+		<div class="card card-body">
+			<a href="{% url 'home' %}" class="btn btn-warning"> &#8592; Back to Profile</a>
+			<hr>
+			<h3 style="text-align: center;">Account Setting</h3>
+			<hr>
+		</div>
+	</div>
+
+	<div class="col-md-9">
+		<div class="card card-body">
+			<form method="POST" action="" enctype="multipart/form-data">
+				{% csrf_token %}
+				{{form.as_p}}
+				<input class="btn btn-primary" type="submit" name="" value="Update">
+			</form>
+		</div>
+	</div>
+
+</div>
+
+{% endblock content %}
+
+
+	

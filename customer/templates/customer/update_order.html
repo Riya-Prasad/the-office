@@ -1,0 +1,17 @@
+{% extends 'customer/index.html' %}
+
+{% block content %}
+
+<div class="row">
+	<div class="col-md-10">
+		<div class="card card-body">
+			<form action="" method="POST">
+				{% csrf_token %}
+				{{form}}
+				<input type="submit" name="Submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</div>
+
+{% endblock content %}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+
+body{
+	font-family: 'Hind', sans-serif;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	background-color: #222831;
+	overflow-x: hidden;
+}
+
+h1, h2, h3,h4, h5, h6{
+	color: #fff;
+}
+
+
+th, td{
+	color: #314e52;
+}
+
+.row{
+	padding: 2rem;
+}
+
+#total-orders{
+	background-color: #94ebcd;
+	box-shadow: 0 0 8px #9df3c4;
+
+}
+
+#orders-delivered{
+	background-color: #a98b98;
+	box-shadow: 0 0 8px #a98b98;
+
+}
+
+#orders-pending{
+	background-color: #ffb4b4;
+	box-shadow: 0 0 8px #ffb4b4;
+
+}
+
+
+.hello-msg{
+	font-size: 1rem;
+	color: #fff;
+	margin-right: 1.5rem;
+}
+
+.bg{
+	background-color: #282846;
+}
+
+
+.card{
+	background-color: #e7d9ea;
+	box-shadow: 0 0 3px #e7d9ea;
+
+}
+
+p{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
